@@ -9,8 +9,11 @@ namespace Exercicio_2
             Console.WriteLine("Digite seu ano de nascimento");
             int nascimento = int.Parse(Console.ReadLine());
 
-            int idade = 2020-nascimento;
-            Console.WriteLine("Sua idade é "+idade);
+            Console.WriteLine("Digite o ano atual");
+            int ano = int.Parse(Console.ReadLine());
+
+            int idade = ano-nascimento;
+            Console.WriteLine("Sua iade é "+idade+" anos");
 
             int semanas = idade*52;
             Console.WriteLine("Sua idade em semanas é "+semanas);
